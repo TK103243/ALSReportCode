@@ -26,7 +26,7 @@ with open(txt_name,"r",encoding="UTF-8") as fh:
     txt_6b = txt_5[int(find_8):]
     txt_6 = txt_6a + " " + txt_6b
     
-    txt_6 = txt_6.replace('F i g u r e'or'Table'or'Discussion'or'Conclusion','')
+    txt_6 = txt_6.replace('F i g u r e'or'Table','')
     
     word_count = len(txt_6.split())
     print(txt_6)
